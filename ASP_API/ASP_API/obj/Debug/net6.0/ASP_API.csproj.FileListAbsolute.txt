@@ -1,0 +1,56 @@
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\bin\Debug\net6.0\appsettings.json
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\bin\Debug\net6.0\ASP_API.staticwebassets.runtime.json
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\bin\Debug\net6.0\ASP_API.exe
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\bin\Debug\net6.0\ASP_API.deps.json
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\bin\Debug\net6.0\ASP_API.runtimeconfig.json
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\bin\Debug\net6.0\ASP_API.dll
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\bin\Debug\net6.0\ref\ASP_API.dll
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\bin\Debug\net6.0\ASP_API.pdb
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.csproj.AssemblyReference.cache
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.AssemblyInfoInputs.cache
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.AssemblyInfo.cs
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.csproj.CoreCompileInputs.cache
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.RazorAssemblyInfo.cache
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.RazorAssemblyInfo.cs
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\scopedcss\bundle\ASP_API.styles.css
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\scopedcss\projectbundle\ASP_API.bundle.scp.css
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.dll
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\ref\ASP_API.dll
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.pdb
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.genruntimeconfig.cache
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Justin\Desktop\- P -\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.csproj.CopyComplete
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\bin\Debug\net6.0\appsettings.json
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\bin\Debug\net6.0\ASP_API.staticwebassets.runtime.json
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\bin\Debug\net6.0\ASP_API.exe
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\bin\Debug\net6.0\ASP_API.deps.json
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\bin\Debug\net6.0\ASP_API.runtimeconfig.json
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\bin\Debug\net6.0\ASP_API.dll
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\bin\Debug\net6.0\ref\ASP_API.dll
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\bin\Debug\net6.0\ASP_API.pdb
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.csproj.AssemblyReference.cache
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.AssemblyInfoInputs.cache
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.AssemblyInfo.cs
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.csproj.CoreCompileInputs.cache
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.RazorAssemblyInfo.cache
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.RazorAssemblyInfo.cs
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\scopedcss\bundle\ASP_API.styles.css
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\scopedcss\projectbundle\ASP_API.bundle.scp.css
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.csproj.CopyComplete
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.dll
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\ref\ASP_API.dll
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.pdb
+C:\Users\Justin\Desktop\Grupo Carol\ASP_API\ASP_API\obj\Debug\net6.0\ASP_API.genruntimeconfig.cache

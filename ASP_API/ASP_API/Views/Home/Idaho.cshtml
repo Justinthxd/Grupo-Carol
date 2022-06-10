@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Idaho";
+}
+
+<br />
+<br />
+<div class="text-center">
+    <h1 class="display-4  text-danger fw-bold text-opacity-75">Idaho</h1>
+    <br />
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item fs-5 text-success">Positive: <h3>@Model["positive"]</h3> </li>
+      <li class="list-group-item fs-5 text-muted">Total Test Results: <h3>@Model["totalTestResults"]</h3> </li>
+      <li class="list-group-item fs-5 text-muted">Hospitalized Cumulative: <h3>@Model["hospitalizedCumulative"]</h3> </li>
+      <li class="list-group-item fs-5 text-danger">Deaths: <h3>@Model["death"]</h3> </li>
+    </ul>
+    <br />
+    <br />
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+    <canvas id="myChart" style="width:100%;max-width:700px margin: 100px auto; padding: 50px;"></canvas>
+    <script type="text/javascript">
+        var xValues = ["Positive", "Test Results", "Hospitalized", "Death"];
+        var yValues = [@Model["positive"],@Model["totalTestResults"],@Model["hospitalizedCumulative"],@Model["death"]];
+        var barColors = ["green","teal","orange","red"];
+
+        new Chart("myChart", {
+          type: "bar",
+          data: {
+            labels: xValues,
+            datasets: [{
+              backgroundColor: barColors,
+              data: yValues
+            }]
+          }
+        });
+    </script>
+</div>

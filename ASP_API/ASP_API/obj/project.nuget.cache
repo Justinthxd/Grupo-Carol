@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SmWOwUXWEw/LnANs6l+coSpFgd7Gn7Dgg2nwEp18dFCV0msMLBef6eU7OZsB8ozmwFAaV8Egpt55mhUVjkLFTA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Justin\\Desktop\\Grupo Carol\\ASP_API\\ASP_API\\ASP_API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Justin\\.nuget\\packages\\chart.js\\3.7.1\\chart.js.3.7.1.nupkg.sha512",
+    "C:\\Users\\Justin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

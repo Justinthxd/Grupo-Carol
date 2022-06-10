@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<br />
+<br />
+<div class="text-center">
+    <h1 class="display-4 fw-bold text-opacity-50">United States</h1>
+    <br />
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item fs-5 text-success">Positive: <h3>@Model["positive"]</h3> </li>
+      <li class="list-group-item fs-5 text-muted">Total Test Results: <h3>@Model["totalTestResults"]</h3> </li>
+      <li class="list-group-item fs-5 text-muted">Hospitalized Cumulative: <h3>@Model["hospitalizedCumulative"]</h3> </li>
+      <li class="list-group-item fs-5 text-danger">Deaths: <h3>@Model["death"]</h3> </li>
+    </ul>
+</div>
+<br />
+<br />
+<br />
+
+
+<div class="row">
+    <div class="col-md-4 col-sm-8 col-40">
+      <div class="card item-wr box-shadow">
+        <img src="https://www.visittheusa.co/sites/default/files/styles/hero_l/public/images/hero_media_image/2016-11/IMG_4219_Web72DPI_0.jpg?itok=Bytukg_S" class="card-img-top" alt="USA">
+          <div class="card-body">
+            <h5 class="card-title">Alabama</h5>
+            <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Alabama">Go to Statistics</a>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-8 col-40">
+       <div class="card item-wr">
+        <img src="https://cdn.mequieroir.com/wp-content/uploads/2020/10/boise.jpg" class="card-img-top" alt="USA">
+      <div class="card-body">
+        <h5 class="card-title">Idaho</h5><a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Idaho">Go to Statistics</a>
+      </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-8 col-40">
+       <div class="card item-wr">
+        <img src="https://www.usnews.com/object/image/00000177-d0a6-d218-a3ff-ffbf45120000/$bs21_minesota_profile?size=superhero-medium&update-time=1614113406302" class="card-img-top" alt="USA">
+      <div class="card-body">
+        <h5 class="card-title">Minnesota</h5>
+         <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Minnesota">Go to Statistics</a>
+      </div>
+      </div>
+    </div>
+</div> 

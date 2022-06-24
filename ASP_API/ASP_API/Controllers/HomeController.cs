@@ -19,15 +19,25 @@ namespace ASP_API.Controllers
         {
             var http = new HttpClient();
             var response = await http.GetStringAsync("https://api.covidtracking.com/v1/us/current.json");
+            var response2 = await http.GetStringAsync("https://api.covidtracking.com/v1/states/current.json");
+        
             dynamic aux = JsonConvert.DeserializeObject(response);
-            return View(aux[0]);
+            dynamic aux2 = JsonConvert.DeserializeObject(response2);
+
+            var list = new List<dynamic>();
+
+            list.Add(aux);
+            list.Add(aux2);
+
+            return View(list);
         }
 
         public async Task<IActionResult> Alabama()
         {
             var http = new HttpClient();
             var response = await http.GetStringAsync("https://api.covidtracking.com/v1/states/al/current.json");
-            dynamic aux = JsonConvert.DeserializeObject(response);
+            Alabama aux = JsonConvert.DeserializeObject<Alabama>(response);
+
             return View(aux);
         }
 

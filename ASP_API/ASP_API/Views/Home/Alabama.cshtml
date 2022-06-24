@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Alabama;
+@{
     ViewData["Title"] = "Alabama";
 }
 
@@ -8,31 +9,62 @@
     <h1 class="display-4 text-success fw-bold text-opacity-75">Alabama</h1>
     <br />
     <ul class="list-group list-group-flush">
-      <li class="list-group-item fs-5 text-success">Positive: <h3>@Model["positive"]</h3> </li>
-      <li class="list-group-item fs-5 text-muted">Total Test Results: <h3>@Model["totalTestResults"]</h3> </li>
-      <li class="list-group-item fs-5 text-muted">Hospitalized Cumulative: <h3>@Model["hospitalizedCumulative"]</h3> </li>
-      <li class="list-group-item fs-5 text-danger">Deaths: <h3>@Model["death"]</h3> </li>
+      <li class="list-group-item fs-5 text-success">Positive: <h3>@Model.positive</h3> </li>
+      <li class="list-group-item fs-5 text-muted">Total Test Results: <h3>@Model.totalTestResults</h3> </li>
+      <li class="list-group-item fs-5 text-muted">Hospitalized Cumulative: <h3>@Model.hospitalizedCumulative</h3> </li>
+      <li class="list-group-item fs-5 text-danger">Increse: <h3>@Model.death</h3> </li>
+
     </ul>
     <br />
-    <br />
-    <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
-    </script>
-    <canvas id="myChart" style="width:100%;max-width:700px margin: 100px auto; padding: 50px;"></canvas>
-    <script type="text/javascript">
-        var xValues = ["Positive", "Test Results", "Hospitalized", "Death"];
-        var yValues = [@Model["positive"],@Model["totalTestResults"],@Model["hospitalizedCumulative"],@Model["death"]];
-        var barColors = ["green","teal","orange","red"];
-
-        new Chart("myChart", {
-          type: "bar",
-          data: {
-            labels: xValues,
-            datasets: [{
-              backgroundColor: barColors,
-              data: yValues
-            }]
-          }
+    <div class="row">
+        <div class="col-xl-12 h-25">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-chart-area me-1"></i>
+                    Area Chart Example
+                </div>
+                <<canvas id="myChart" width="400" height="120"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="~/Content/js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="~/Content/assets/demo/chart-area-demo.js"></script>
+    <script src="~/Content/assets/demo/chart-bar-demo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+    <script src="~/Content/js/datatables-simple-demo.js"></script>
+    <script>
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Positive', 'Total', 'Hozpitalized', 'Death'],
+                datasets: [{
+                    label: '# of Cases',
+                    data: [@Model.positive, @Model.totalTestResults, @Model.hospitalizedCumulative, @Model.death],
+                    backgroundColor: [
+                        'rgba(75, 192, 130, 0.8)',
+                        'rgba(54, 162, 235, 0.8)',
+                        'rgba(255, 206, 86, 0.8)',
+                        'rgba(255, 32, 32, 0.8)',
+                    ],
+                    borderColor: [
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(255, 32, 32, 1)',
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
         });
     </script>
 </div>
